@@ -34,3 +34,21 @@ textarea#styled {
 #submit:hover {
     background-color: #4aaa19;
 }
+
+@media (min-width: 769px) and (max-width: 980px) {
+    textarea#styled {
+        width: 440px;
+    }
+}
+
+@media (min-width: 681px) and (max-width: 768px) {
+    textarea#styled {
+        width: 565px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    textarea#styled {
+        width: 520px;
+    }
+}
